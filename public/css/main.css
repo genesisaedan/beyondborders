@@ -628,7 +628,7 @@ button{
 }
 /* Footer CSS */
 
-.footer-1{
+.footer-1 .container-fluid{
     background-image: url("../assets/images/bg-half-arrow.png");
     background-color: #128593;
     border-radius: 25px;
@@ -636,6 +636,8 @@ button{
     background-repeat: no-repeat;
     background-position: bottom left;
     display: flex;
+    justify-content: center;
+    padding: 5vw 0;
 }
 .footer-1 .row{
     display: flex;
